@@ -38,6 +38,7 @@ function messageContains(checks, messageContent)
 		if(messageContent.includes(check))
 		{
 			contains = true;
+			console.log("message '" + messageContent + "' contains checked content '" + check + "'");
 		}
 	})
 	
