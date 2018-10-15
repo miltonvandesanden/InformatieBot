@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const token = ""; //LEAVE EMPTY ON GITHUB!
 
 bot.on('ready', () => {
     console.log('running');
   });
   
-bot.login('token'); 
+bot.login(token); 
 
 //transmitterChannels
 var transmittersMap = new Map();
@@ -47,4 +48,5 @@ function messageContains(checks, messageContent)
 function sendMessage(channelId, messageContent)
 {
 	bot.channels.get(channelId).send(messageContent);
+	console.log("Sent message '" + messageContent + "' to channel " + channelId);
 }
