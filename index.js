@@ -14,6 +14,7 @@ transmittersMap.set("499607824997810176", "496719221099724811"); //dezeServerTra
 transmittersMap.set("499607898733674506", "496712604639690762"); //regelsTransmitterChannelId, regelsChannelId
 transmittersMap.set("499607966522146827", "496712518350274560"); //aankondigingenTransmitterChannelId, aankondigingenChannelId
 transmittersMap.set("499608046532689930", "496712566316335104"); //rollenTransmitterChannelId, rollenChannelId
+transmittersMap.set("503590950694551552", "503585885531537426"); //moderatieBeleidTransmitterChannelID, moderatieBeleidChannelID
 //to insert new transmitterchannel type "transmittersMap.set("[transmitterchannelId]", "[receiverChannelId]");" above this line.
   
 //content that is untransmitable
